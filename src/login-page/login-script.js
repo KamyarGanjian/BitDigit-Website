@@ -45,6 +45,9 @@ function setUser() {
 
                     if (username.value === user[1].username && password.value === user[1].password) {
 
+                        let user1 = JSON.stringify(user[1].username);
+                        localStorage.setItem("usernames", user1)
+
                         var toastMixin = Swal.mixin({
                             toast: true,
                             icon: 'success',

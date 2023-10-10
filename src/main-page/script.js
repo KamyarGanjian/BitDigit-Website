@@ -329,10 +329,10 @@ fetch('https://bit-digit-default-rtdb.firebaseio.com/users.json')
 
     users.map((user => {
 
-      loginBtn.innerText = user[1].username;
-      let user1 = JSON.stringify(user[1].username);
-      localStorage.setItem("usernames", user1)
-      console.log(localStorage.usernames);
+      loginBtn.addEventListener('click')
+      let usernameValue = JSON.parse(localStorage.getItem("usernames"))
+
+      loginBtn.innerText = usernameValue;
 
     }))
 
