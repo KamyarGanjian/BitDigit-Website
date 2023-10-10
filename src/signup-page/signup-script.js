@@ -71,7 +71,7 @@ function setUser() {
             title: 'با موفقیت ثبت نام شدید.',
             animation: false,
             showConfirmButton: false,
-            timer: 1000000,
+            timer: 1000,
             iconColor: 'white',
             timerProgressBar: true,
             didOpen: (toast) => {
@@ -83,8 +83,6 @@ function setUser() {
                 window.location.assign("../../src/main-page/index.html");
             }
         })
-
-
 
     }
 }

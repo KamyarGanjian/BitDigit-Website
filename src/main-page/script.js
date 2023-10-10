@@ -1,6 +1,6 @@
 $('document').ready(function () {
   var typed = new Typed(".hero-text", {
-    strings: ["با بیت دیجیت معاملات خود را در سریع‌ترین زمان ممکن انجام دهید."],
+    strings: ["با ما معاملات خود را در سریع‌ترین زمان ممکن انجام دهید."],
     typeSpeed: 70,
 
   });
@@ -326,11 +326,14 @@ fetch('https://bit-digit-default-rtdb.firebaseio.com/users.json')
   .then(response => response.json())
   .then(data => {
     const users = Object.entries(data);
-    console.log(users)
 
     users.map((user => {
-      console.log(user[1].username)
+
       loginBtn.innerText = user[1].username;
+      let user1 = JSON.stringify(user[1].username);
+      localStorage.setItem("usernames", user1)
+      console.log(localStorage.usernames);
+
     }))
-    
+
   })
