@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صرافی ارز دیجیتال بیت دیجیت</title>
+
+  <link rel="shortcut icon" href="../../public/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="../../public/favicon.svg" width="32" height="32" alt="Cryptex logo">
+        BitDigit
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-link active" data-nav-link>صفحه اصلی</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#market" class="navbar-link" data-nav-link>بازار</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#trade" class="navbar-link" data-nav-link>خرید و فروش</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link" data-nav-link>درباره ما</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <a href="#" class="btn btn-outline login-btn">ورود</a><span class="dollar-span"></span>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+      <section id="hero" class="section hero" aria-label="hero" data-section>
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">صرافی ارز دیجیتال</h1>
+
+            <p class="hero-text"></p>
+
+
+            <a href="#trade" class="btn btn-primary login-btn">خرید و فروش</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="../../public/assets/images/hero-banner.png" width="570" height="448" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+      <section id="market" class="section market" aria-label="market update" data-section>
+        <div class="container" id="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">بازار های معاملاتی</h2>
+
+            <span class="btn-link" id="span"></span>
+          </div>
+
+          <div class="market-tab">
+
+            <table class="market-table">
+
+              <thead class="table-head">
+                <tr class="table-row table-title"></tr>
+              </thead>
+
+              <tbody class="table-body"></tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <section id="trade" class="section trade" aria-label="trade" data-section>
+
+        <form class="container">
+
+
+          <div class="dropdown buy">
+            <h3 class="drop-title">خرید</h3>
+            <div class="select">
+              <img src="../../public/assets/images/coin-1.svg" width="20" height="20" alt="Bitcoin logo"
+                class="img-avtive1">
+              <span class="selected1">Bitcoin</span>
+              <button class="btn btn-primary dropdownbtn">ثبت</button>
+              <div class="caret"></div>
+            </div>
+            <ul class="menu">
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-1.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Bitcoin</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-2.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Ethereum</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-3.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Tether</a>
+                  </h3>
+                </div>
+              </li>
+              <li class="active">
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-4.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">BNB</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-5.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Solana</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-6.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">XRP</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-7.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Cardano</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-8.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Avalanche</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="dropdown2 sell">
+            <h3 class="drop-title">فروش</h3>
+            <div class="select2">
+              <img src="../../public/assets/images/coin-3.svg" width="20" height="20" alt="Bitcoin logo"
+                class="img-active2">
+              <span class="selected2">Tether</span>
+              <button class="btn btn-primary dropdownbtn">ثبت</button>
+              <div class="caret2"></div>
+            </div>
+            <ul class="menu2">
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-1.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Bitcoin</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-2.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Ethereum</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-3.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Tether</a>
+                  </h3>
+                </div>
+              </li>
+              <li class="active">
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-4.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">BNB</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-5.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Solana</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-6.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">XRP</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-7.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Cardano</a>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <div class="wrapper menu-item">
+                  <img src="../../public/assets/images/coin-8.svg" width="20" height="20" alt="Bitcoin logo"
+                    class="img">
+
+                  <h3>
+                    <a href="#" class="coin-name" style="margin-right: 5px;">Avalanche</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+        </form>
+
+
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <section id="footer">
+
+    <footer class="footer">
+
+      <div class="footer-top" data-section dir="ltr">
+        <div class="container">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="../../public/assets/images/logo.svg" width="50" height="50" alt="Cryptex logo">
+              BitDigit
+            </a>
+
+            <h2 class="footer-title">🤙بزنگ</h2>
+
+            <a href="tel:+123456789101" class="footer-contact-link">۰۹۳۹۳۵۵۱۰۱۴</a>
+
+            <a href="mailto:kamyarganjian@gmail.com" class="footer-contact-link">kamyarganjian@gmail.com</a>
+
+          </div>
+
+          <ul class="footer-list" dir="rtl">
+
+            <li>
+              <p class="footer-list-title">محصولات</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list" dir="rtl">
+
+            <li>
+              <p class="footer-list-title">سرویس ها</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list" dir="rtl">
+
+            <li>
+              <p class="footer-list-title">پشتیبانی</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list" dir="rtl">
+
+            <li>
+              <p class="footer-list-title">درباره ما</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم متن</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم ایپسوم</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">لورم</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom" dir="rtl">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; لورم ایپسوم متن ساختگی با تولید سادگی <a href="#" class="copyright-link">لورم ایپسوم</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </footer>
+
+  </section>
+
+  <link rel="stylesheet" href="../../src/login-page/login-script.js">
+
+
+
+
+  <script src="./script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام | بیت دیجیت</title>
+    <link rel="stylesheet" href="./signup-style.css">
+    <link rel="shortcut icon" href="../../public/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <body id="particles-js"></body>
+    <div class="animated bounceInDown">
+        <div class="container">
+            <span class="error animated tada" id="msg"></span>
+            <form id="form" name="form1" class="box">
+
+                <img src="../../public/favicon.svg" alt="Cryptex logo">
+                <h4>صرافی ارز دیجیتال بیت دیجیت</h4>
+                <h5>حساب کاربری جدید بسازید.</h5>
+
+                <div class="input-control">
+                    <input type="text" id="username" name="username" placeholder="نام کاربری" autocomplete="off"
+                        onchange="validateUsername()">
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                    <input type="text" id="email" name="email" placeholder="پست الکترونیک" autocomplete="off"
+                        onchange="validateEmail()">
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                    <input type="password" name="password" placeholder="گذر واژه" id="password" autocomplete="off"
+                        onchange="validatePassword()">
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                    <input type="password" name="password-confirmation" placeholder="تأیید گذرواژه"
+                        id="password-confirmation" autocomplete="off" onchange="validatePassword2()">
+                    <div class="error"></div>
+                </div>
+
+                <input type="submit" id="signup-btn" name="signup" value="ثبت نام">
+
+            </form>
+        </div>
+        <div class="footer">
+            <span>حساب دارید؟ <i class="fa fa-heart pulse"></i><a class="go-to-login-page" href="#">ورود</a></span>
+        </div>
+    </div>
+
+    <script src="./signup-script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
