@@ -84,7 +84,7 @@ function setUser() {
                             }
                         })
                     }
-                    else if (username.value !== user[1].username && password.value !== user[1].password) {
+                    else if (username.value !== user[1].username || password.value !== user[1].password) {
 
                         var toastMixin = Swal.mixin({
                             toast: true,

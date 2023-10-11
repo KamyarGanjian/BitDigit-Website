@@ -346,6 +346,8 @@ fetch('https://bit-digit-default-rtdb.firebaseio.com/users.json')
       `
       let usernameValue = JSON.parse(localStorage.getItem("usernames"))
 
+      console.log(localStorage)
+
       loginBtn.innerText = usernameValue;
       loginBtn.innerHTML += icon;
 
