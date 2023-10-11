@@ -23,25 +23,25 @@
                 <h5>حساب کاربری جدید بسازید.</h5>
 
                 <div class="input-control">
-                    <input type="text" id="username" name="username" placeholder="نام کاربری" autocomplete="off"
+                    <input type="text" maxlength="12" id="username" name="username" placeholder="نام کاربری" autocomplete="off"
                         onchange="validateUsername()">
                     <div class="error"></div>
                 </div>
 
                 <div class="input-control">
-                    <input type="text" id="email" name="email" placeholder="پست الکترونیک" autocomplete="off"
+                    <input type="text" maxlength="30" id="email" name="email" placeholder="پست الکترونیک" autocomplete="off"
                         onchange="validateEmail()">
                     <div class="error"></div>
                 </div>
 
                 <div class="input-control">
-                    <input type="password" name="password" placeholder="گذر واژه" id="password" autocomplete="off"
+                    <input type="password" maxlength="20" name="password" placeholder="گذر واژه" id="password" autocomplete="off"
                         onchange="validatePassword()">
                     <div class="error"></div>
                 </div>
 
                 <div class="input-control">
-                    <input type="password" name="password-confirmation" placeholder="تأیید گذرواژه"
+                    <input type="password" maxlength="20" name="password-confirmation" placeholder="تأیید گذرواژه"
                         id="password-confirmation" autocomplete="off" onchange="validatePassword2()">
                     <div class="error"></div>
                 </div>

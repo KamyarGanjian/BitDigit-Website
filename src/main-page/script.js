@@ -33,6 +33,7 @@ const myArray = [
     "update": "+1.45%",
     "benefit": "1",
     "situation": "green",
+    "src": "../../public/assets/images/coin-1.svg",
   },
   {
     "enName": "Ethereum",
@@ -41,6 +42,7 @@ const myArray = [
     "update": "-5.12%",
     "benefit": "2",
     "situation": "red",
+    "src": "../../public/assets/images/coin-2.svg",
   },
   {
     "enName": "Tether",
@@ -49,6 +51,7 @@ const myArray = [
     "update": "+1.45%",
     "benefit": "1",
     "situation": "green",
+    "src": "../../public/assets/images/coin-3.svg",
   },
   {
     "enName": "BNB",
@@ -57,6 +60,7 @@ const myArray = [
     "update": "-3.75%",
     "benefit": "2",
     "situation": "red",
+    "src": "../../public/assets/images/coin-4.svg",
   },
   {
     "enName": "Solana",
@@ -66,6 +70,7 @@ const myArray = [
     "benefit": "1",
     "situation": "green",
     "class": "hidden",
+    "src": "../../public/assets/images/coin-5.svg",
   },
   {
     "enName": "XRP",
@@ -75,6 +80,7 @@ const myArray = [
     "benefit": "2",
     "situation": "red",
     "class": "hidden",
+    "src": "../../public/assets/images/coin-6.svg",
   },
   {
     "enName": "Cardano",
@@ -84,6 +90,7 @@ const myArray = [
     "benefit": "1",
     "situation": "green",
     "class": "hidden",
+    "src": "../../public/assets/images/coin-7.svg",
   },
   {
     "enName": "Avalanche",
@@ -93,6 +100,7 @@ const myArray = [
     "benefit": "1",
     "situation": "green",
     "class": "hidden",
+    "src": "../../public/assets/images/coin-8.svg",
   }
 ]
 
@@ -227,10 +235,12 @@ market.addEventListener('click', function (event) {
 
   for (var i = 1; i <= 8; i++) {
     if (event.target.classList.value === 'btn btn-outline buying' + i) {
-      selected1.innerText = myArray[i - 1].enName
+      selected1.innerText = myArray[i - 1].enName;
+      imgActive1.src = myArray[i - 1].src;
     }
     else if (event.target.classList.value === 'btn btn-outline selling' + i) {
-      selected2.innerText = myArray[i - 1].enName
+      selected2.innerText = myArray[i - 1].enName;
+      imgActive2.src = myArray[i - 1].src;
     }
   }
 
@@ -329,10 +339,15 @@ fetch('https://bit-digit-default-rtdb.firebaseio.com/users.json')
 
     users.map((user => {
 
-      loginBtn.addEventListener('click')
+      const icon = `
+
+      <ion-icon class="user-icon" name="person-circle-outline"></ion-icon>
+
+      `
       let usernameValue = JSON.parse(localStorage.getItem("usernames"))
 
       loginBtn.innerText = usernameValue;
+      loginBtn.innerHTML += icon;
 
     }))
 

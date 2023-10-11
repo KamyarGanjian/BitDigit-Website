@@ -309,6 +309,14 @@ body.active {
   font-size: 24px;
 }
 
+.user-icon{
+  display: block;
+  pointer-events: none;
+  float: right;
+  font-size: 20px;
+  margin-left: 2px;
+}
+
 
 
 
@@ -806,11 +814,6 @@ body.active {
   margin-bottom: 10px;
 }
 
-.dropdownbtn {
-  border-radius: 15px;
-  margin-right: 60%;
-}
-
 .menu-item {
   display: flex;
 }
@@ -907,7 +910,7 @@ body.active {
 
 .dropdownbtn {
   border-radius: 15px;
-  margin-right: 60%;
+  margin-left: 3px;
 }
 
 .menu2-item {
@@ -915,11 +918,11 @@ body.active {
 }
 
 .selected1 {
-  margin-right: 5px;
+  width: 55px;
 }
 
 .selected2 {
-  margin-right: 5px;
+  width: 55px;
 }
 
 @media(max-width: 770px) {
@@ -1062,7 +1065,7 @@ address.footer-contact-link {
 }
 
 .footer-top {
-  height: 575px;
+  height: 600px;
 }
 
 @media(max-width: 1200px) {
