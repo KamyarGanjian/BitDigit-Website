@@ -309,7 +309,7 @@ body.active {
   font-size: 24px;
 }
 
-.user-icon{
+.user-icon {
   display: block;
   pointer-events: none;
   float: right;
