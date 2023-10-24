@@ -10,3 +10,7 @@
 
 <br>
 
+![Picture3](https://github.com/KamyarGanjian/BitDigit-Website/assets/145255798/37c7318b-363f-4cb6-9873-be70d144fa46)
+
+<br>
+
