@@ -14,3 +14,4 @@
 
 <br>
 
+![picture4](https://github.com/KamyarGanjian/BitDigit-Website/assets/145255798/b1d5582a-539e-4014-bcc5-4a5476ccbd40)
