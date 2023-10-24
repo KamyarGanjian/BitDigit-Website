@@ -7,3 +7,6 @@
 <br>
 
 ![Picture](https://github.com/KamyarGanjian/BitDigit-Website/assets/145255798/0a22e476-af2d-4e70-b936-a0a87e2355ae)
+
+<br>
+
