@@ -1,8 +1,8 @@
-# trading digital currencies website UI/UX
+## trading digital currencies website UI/UX
 
-## HTML/CSS, JavaScript, JQuery & Firebase
+### HTML/CSS, JavaScript, JQuery & Firebase
 
-### you can sign-up or sign-in by filling out the forms on the form pages & buy or sell fake digital currencies
+#### you can sign-up or sign-in by filling out the forms on the form pages & buy or sell fake digital currencies
 
 <br>
 
