@@ -1,4 +1,4 @@
-# a Website for trading fake digital currencies
+# trading digital currencies website UI/UX
 
 ## HTML/CSS, JavaScript, JQuery & Firebase
 
