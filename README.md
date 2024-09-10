@@ -1,4 +1,4 @@
-## trading digital currencies website UI/UX
+## trading website by React-Js
 
 ### HTML/CSS, JavaScript, JQuery & Firebase
 
