@@ -1,4 +1,4 @@
-## trading website by React-Js
+## trading website by React-JS
 
 ### HTML/CSS, JavaScript, JQuery & Firebase
 
